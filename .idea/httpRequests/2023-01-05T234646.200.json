@@ -1,0 +1,16 @@
+[
+  {
+    "author": "Shakespeare                                                     ",
+    "id": 1,
+    "isbn": "3030            ",
+    "price": 20.0,
+    "title": "Romeo y Julieta                                                                                                                 "
+  },
+  {
+    "author": "Maria Fernanda Heredia                                          ",
+    "id": 2,
+    "isbn": "5482            ",
+    "price": 15.5,
+    "title": "Cupido es un murcielago                                                                                                         "
+  }
+]

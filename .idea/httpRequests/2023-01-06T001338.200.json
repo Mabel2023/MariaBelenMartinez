@@ -1,0 +1,86 @@
+[
+  {
+    "author": "Shakespeare                                                     ",
+    "id": 1,
+    "isbn": "3030            ",
+    "price": 20.0,
+    "title": "Romeo y Julieta                                                                                                                 "
+  },
+  {
+    "author": "Autor2                                                          ",
+    "id": 2,
+    "isbn": "6350            ",
+    "price": 10.2,
+    "title": "Libro2                                                                                                                          "
+  },
+  {
+    "author": "Shakespeare                                                     ",
+    "id": 1,
+    "isbn": "3030            ",
+    "price": 20.0,
+    "title": "Romeo y Julieta                                                                                                                 "
+  },
+  {
+    "author": "Autor2                                                          ",
+    "id": 2,
+    "isbn": "6350            ",
+    "price": 10.2,
+    "title": "Libro2                                                                                                                          "
+  },
+  {
+    "author": "Shakespeare                                                     ",
+    "id": 1,
+    "isbn": "3030            ",
+    "price": 20.0,
+    "title": "Romeo y Julieta                                                                                                                 "
+  },
+  {
+    "author": "Autor2                                                          ",
+    "id": 2,
+    "isbn": "6350            ",
+    "price": 10.2,
+    "title": "Libro2                                                                                                                          "
+  },
+  {
+    "author": "Shakespeare                                                     ",
+    "id": 1,
+    "isbn": "3030            ",
+    "price": 20.0,
+    "title": "Romeo y Julieta                                                                                                                 "
+  },
+  {
+    "author": "Autor2                                                          ",
+    "id": 2,
+    "isbn": "6350            ",
+    "price": 10.2,
+    "title": "Libro2                                                                                                                          "
+  },
+  {
+    "author": "Shakespeare                                                     ",
+    "id": 1,
+    "isbn": "3030            ",
+    "price": 20.0,
+    "title": "Romeo y Julieta                                                                                                                 "
+  },
+  {
+    "author": "Autor2                                                          ",
+    "id": 2,
+    "isbn": "6350            ",
+    "price": 10.2,
+    "title": "Libro2                                                                                                                          "
+  },
+  {
+    "author": "Shakespeare                                                     ",
+    "id": 1,
+    "isbn": "3030            ",
+    "price": 20.0,
+    "title": "Romeo y Julieta                                                                                                                 "
+  },
+  {
+    "author": "Autor2                                                          ",
+    "id": 2,
+    "isbn": "6350            ",
+    "price": 10.2,
+    "title": "Libro2                                                                                                                          "
+  }
+]

@@ -1,0 +1,49 @@
+plugins {
+    id 'java'
+    id 'application'
+    id "io.freefair.lombok" version "6.6.1"
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+ext{
+    helidonVersion = '3.1.0'
+}
+
+dependencies {
+    // import Helidon dependency management
+    implementation platform("io.helidon:helidon-dependencies:${project.helidonVersion}")
+
+    //instala todo lo de microprofile version x
+    //implementation 'io.helidon.microprofile.bundles:helidon-microprofile'
+
+    implementation 'io.helidon.microprofile.server:helidon-microprofile-server'//tiene la dependencia de servidor
+    implementation 'org.glassfish.jersey.media:jersey-media-json-binding'//el servidor acepta peticiones de clientes
+    runtimeOnly 'org.jboss:jandex'
+
+    // https://mvnrepository.com/artifact/org.postgresql/postgresql
+    implementation group: 'org.postgresql', name: 'postgresql'
+    //implementation 'org.postgresql:postgresql:42.4.0'
+
+    //pool de conexiones para trabajar con la base de datos, configuramos un pool de conexiones manual
+    implementation group: 'com.zaxxer', name: 'HikariCP', version: '5.0.1'
+    // https://mvnrepository.com/artifact/org.jdbi/jdbi3-core
+    implementation group: 'org.jdbi', name: 'jdbi3-core', version: '3.36.0'
+    implementation 'org.jdbi:jdbi3-core:3.36.0'
+    implementation 'org.jdbi:jdbi3-sqlobject:3.36.0'
+    implementation 'org.postgresql:postgresql:9.4-1206-jdbc42'
+
+
+}
+
+sourceSets{
+    main{
+        output.resourcesDir = file("${buildDir}/classes/java/main")
+    }
+}
+
